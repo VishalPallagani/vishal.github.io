@@ -1,0 +1,8 @@
+@misc{srivastava2022robust,
+  title={Robust useful and general task-oriented virtual assistants},
+  author={Srivastava, Biplav and Lakkaraju, Kausik and Venkataramanan, Revathy and Pallagani, Vishal and Khandelwal, Vedant and Yip, Hong Yung},
+  year={2022},
+  month=nov # "~10",
+  publisher={Google Patents},
+  note={US Patent App. 17/714,508}
+}
