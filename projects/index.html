@@ -15,7 +15,7 @@
 <body class="container">
 
 
-    <table style="width:80%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;">
+    <table style="width:80%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;margin-top:20px;">
         <tbody>
             <tr style="padding:0px">
                 <td style="padding-left:2.5%;padding-top:3%;width:63%;vertical-align:middle">
@@ -23,20 +23,26 @@
                     <a href='/'>Home</a> &nbsp/&nbsp
                     <a href='/experience/'>Experience</a> &nbsp/&nbsp
                     <a target="_blank" href='https://scholar.google.com/citations?user=uUkfixUAAAAJ&hl=en'>Publications</a> &nbsp/&nbsp
-
                     <a target="_blank" href='/cv/CV.pdf'>CV</a>
                   </p>
                 </td>
               </tr>
 
-            
               <tr style="padding:0px">
-                <td style="padding-left:2.5%;width:63%;vertical-align:middle">
+                <td style="padding-left:2.5%;width:63%;vertical-align:middle">   
+                  
+                  <div id="search-bar">
+                    <input type="text" id="search-input" placeholder="Search...">
+                    <button id="search-btn">Search</button>
+                    <button id="prev-btn">Previous</button>
+                    <button id="next-btn">Next</button>
+                    <span id="match-count"></span> <!-- new element to display the match count -->
+                  </div>                    
+                  
                   <h2 style="display:flex;align-items:center;">
                     <span style="background-color:hsl(60, 100%, 50%);height:20px;width:20px;margin-right:10px;border:1px solid black;"></span>
                     Generalized Planning
                   </h2>
-                  
                   <p style="text-align: justify;"><span style="background-color: hsl(60, 100%, 50%);"><b>Generative Models for Automated Planning</b></span><br>
                       <i><b>Collaborators: </b>AIISC - University of South Carolina, IBM Research, University of Udine, University of Brescia</i>
                       <br>
@@ -202,6 +208,6 @@
             </tr>
         </tbody>
     </table>
-
+    <script type="text/javascript" src="../js/script.js"></script>
 </body>
 </html>
