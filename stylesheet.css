@@ -162,3 +162,96 @@ span.highlight {
     width: 1170px;
   }
 }
+
+input[type="text"] {
+  padding: 3px; /* reduce padding */
+  border: 1px solid #ccc;
+  border-radius: 3px; /* reduce border radius */
+  width: 200px; /* reduce width */
+}
+
+
+button {
+  padding: 5px 10px;
+  border: none;
+  background-color: #007bff;
+  color: #fff;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #0069d9;
+}
+
+.highlight {
+  background-color: yellow;
+}
+
+#search-bar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  background-color: white;
+  z-index: 9999;
+  padding: 10px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+#search-bar input[type="text"],
+#search-bar button {
+  margin-right: 10px;
+}
+
+#search-bar button {
+  background-color: #2196f3;
+  color: white;
+  border: none;
+  padding: 8px 16px;
+  cursor: pointer;
+}
+
+#search-bar button:hover {
+  background-color: #1e88e5;
+}
+
+#prev-btn,
+#next-btn {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  right: 20px;
+  z-index: 9999;
+  background-color: #2196f3;
+  color: white;
+  border: none;
+  padding: 8px 16px;
+  cursor: pointer;
+}
+
+#prev-btn:hover,
+#next-btn:hover {
+  background-color: #1e88e5;
+}
+
+#prev-btn {
+  right: 80px;
+}
+
+#next-btn {
+  right: 20px;
+}
+
+#search-count {
+  position: absolute;
+  top: 50%;
+  right: 10px;
+  transform: translateY(-50%);
+  background-color: #333;
+  color: #fff;
+  padding: 5px 10px;
+  border-radius: 3px;
+  font-size: 14px;
+  font-weight: bold;
+}
